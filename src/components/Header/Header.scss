@@ -1,0 +1,24 @@
+.me-left {
+  margin-right: -10%;
+}
+.nav-link {
+  color: #1a1818;
+  font-size: 16.5px;
+  font-weight: 500;
+  padding: 10px, 20px, 10px, 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1a1818;
+  }
+}
+.navbar-brand img {
+  margin-left: -100px;
+  width: 45px;
+  height: 45px;
+}
+.search {
+  font-size: 18px;
+}

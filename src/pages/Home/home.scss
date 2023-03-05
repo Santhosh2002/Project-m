@@ -1,0 +1,26 @@
+.home {
+  background-image: url("../../assets/Images/v1016-b-08.jpg");
+  height: 91vh;
+  .vstack {
+    background-color: transparent;
+    .home-title {
+      margin-top: 180px;
+      margin-left: 180px;
+      width: 350px;
+      h1 {
+        color: aliceblue;
+        font-size: 68px;
+        font-weight: bold;
+        line-height: 71px;
+      }
+    }
+    .home-desc {
+      margin-left: 180px;
+      width: 500px;
+      p {
+        font-size: 18px;
+        color: aliceblue;
+      }
+    }
+  }
+}

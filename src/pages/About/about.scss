@@ -1,0 +1,32 @@
+.about {
+  .vstack {
+    background-color: white;
+    height: 100vh;
+    .about-title {
+      margin-top: 140px;
+      margin-left: 180px;
+      h1 {
+        color: #000000;
+        font-size: px;
+        font-weight: bold;
+      }
+    }
+    .about-desc {
+      margin-left: 180px;
+      p {
+        font-size: 20px;
+        color: #000000;
+      }
+    }
+    hr {
+      margin-top: 40px;
+      margin-left: 190px;
+      width: 50px;
+      border: 1px solid black;
+    }
+    .hstack {
+      margin-top: 20px;
+      margin-left: 180px;
+    }
+  }
+}
