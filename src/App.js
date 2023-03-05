@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Brands from "./pages/Brands/Brands";
 import Stories from "./pages/Stories/Stories";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Brands />
       <Stories />
+      <Footer />
     </>
   );
 }
