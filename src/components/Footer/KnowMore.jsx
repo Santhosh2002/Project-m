@@ -1,4 +1,4 @@
-import { Stack, Button } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 import "./footer.scss";
 const KnowMore = () => {
   return (
