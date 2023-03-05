@@ -1,0 +1,38 @@
+.stories {
+  .vstack {
+    background-color: white;
+
+    .stories-title {
+      margin-top: 140px;
+      margin-left: 240px;
+      h1 {
+        color: #000000;
+        font-size: 50px;
+        font-weight: bold;
+      }
+    }
+    .stories-desc {
+      margin-left: 240px;
+      p {
+        font-size: 20px;
+        color: #000000;
+      }
+    }
+    hr {
+      margin-top: 40px;
+      margin-left: 240px;
+      width: 50px;
+      border: 1px solid black;
+    }
+    .hstack {
+      margin-top: 20px;
+      margin-left: 250px;
+      align-items: center;
+      .card {
+        scale: 1.1;
+        margin-right: 100px;
+        margin-bottom: 60px;
+      }
+    }
+  }
+}
