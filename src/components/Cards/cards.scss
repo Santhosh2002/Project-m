@@ -25,7 +25,20 @@
     }
   }
   &:hover {
-    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+    box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
+    background-color: #000000;
+    .card-body {
+      .card-title {
+        color: #ffffff;
+      }
+      .card-text {
+        color: #ffffff;
+      }
+      .btn {
+        background-color: #ffffff;
+        color: #000000;
+      }
+    }
     transform: translate(-5px, -15px);
     transition: all 0.3s ease;
   }
